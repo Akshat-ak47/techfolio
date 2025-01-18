@@ -913,3 +913,32 @@ h3.my-profession
         justify-items: center;
     }
 }
+
+@media (max-width:421px)
+{
+    .about .about-content .personal-info .info-item
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (max-width:231px)
+{
+    .contact .contact-title
+    {
+        font-size: 20px;
+    }
+    .contact .contact-sub-title
+    {
+        font-size: 12px;
+    }
+    .portfolio .portfolio-item-inner .portfolio-img img
+    {
+        text-align: center;
+    }
+    .portfolio .portfolio-item-inner .portfolio-img img
+    {
+        width: auto;
+        margin: 0 auto;
+    }
+}
