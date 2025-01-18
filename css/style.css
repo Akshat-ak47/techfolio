@@ -921,9 +921,6 @@ h3.my-profession
         flex: 0 0 100%;
         max-width: 100%;
     }
-}
-@media (max-width:231px)
-{
     .contact .contact-title
     {
         font-size: 20px;
